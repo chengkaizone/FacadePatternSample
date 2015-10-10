@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ShapeMaker.h"
 
 @interface ViewController ()
 
@@ -16,12 +17,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    //这里只需要外观类而不需要依赖细节
+    [ShapeMaker drawCircleAndRectangle];
+    [ShapeMaker drawCircleAndSquare];
+    [ShapeMaker drawAll];
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end

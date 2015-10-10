@@ -13,6 +13,11 @@
 		12B511B51BC94F590031FF1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12B511B31BC94F590031FF1E /* Main.storyboard */; };
 		12B511B71BC94F590031FF1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12B511B61BC94F590031FF1E /* Assets.xcassets */; };
 		12B511BA1BC94F590031FF1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12B511B81BC94F590031FF1E /* LaunchScreen.storyboard */; };
+		12B511C41BC94F840031FF1E /* Shape.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B511C31BC94F840031FF1E /* Shape.m */; settings = {ASSET_TAGS = (); }; };
+		12B511C71BC94FE90031FF1E /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B511C61BC94FE90031FF1E /* Circle.m */; settings = {ASSET_TAGS = (); }; };
+		12B511CA1BC9501C0031FF1E /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B511C91BC9501C0031FF1E /* Rectangle.m */; settings = {ASSET_TAGS = (); }; };
+		12B511CD1BC9504B0031FF1E /* Square.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B511CC1BC9504B0031FF1E /* Square.m */; settings = {ASSET_TAGS = (); }; };
+		12B511D01BC950860031FF1E /* ShapeMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B511CF1BC950860031FF1E /* ShapeMaker.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,16 @@
 		12B511B61BC94F590031FF1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12B511B91BC94F590031FF1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12B511BB1BC94F590031FF1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12B511C21BC94F840031FF1E /* Shape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
+		12B511C31BC94F840031FF1E /* Shape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shape.m; sourceTree = "<group>"; };
+		12B511C51BC94FE90031FF1E /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		12B511C61BC94FE90031FF1E /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
+		12B511C81BC9501C0031FF1E /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		12B511C91BC9501C0031FF1E /* Rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
+		12B511CB1BC9504B0031FF1E /* Square.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Square.h; sourceTree = "<group>"; };
+		12B511CC1BC9504B0031FF1E /* Square.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Square.m; sourceTree = "<group>"; };
+		12B511CE1BC950860031FF1E /* ShapeMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapeMaker.h; sourceTree = "<group>"; };
+		12B511CF1BC950860031FF1E /* ShapeMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapeMaker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +77,7 @@
 				12B511AE1BC94F590031FF1E /* AppDelegate.m */,
 				12B511B01BC94F590031FF1E /* ViewController.h */,
 				12B511B11BC94F590031FF1E /* ViewController.m */,
+				12B511C11BC94F6C0031FF1E /* Shape */,
 				12B511B31BC94F590031FF1E /* Main.storyboard */,
 				12B511B61BC94F590031FF1E /* Assets.xcassets */,
 				12B511B81BC94F590031FF1E /* LaunchScreen.storyboard */,
@@ -77,6 +93,23 @@
 				12B511AB1BC94F590031FF1E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		12B511C11BC94F6C0031FF1E /* Shape */ = {
+			isa = PBXGroup;
+			children = (
+				12B511CE1BC950860031FF1E /* ShapeMaker.h */,
+				12B511CF1BC950860031FF1E /* ShapeMaker.m */,
+				12B511C21BC94F840031FF1E /* Shape.h */,
+				12B511C31BC94F840031FF1E /* Shape.m */,
+				12B511C51BC94FE90031FF1E /* Circle.h */,
+				12B511C61BC94FE90031FF1E /* Circle.m */,
+				12B511C81BC9501C0031FF1E /* Rectangle.h */,
+				12B511C91BC9501C0031FF1E /* Rectangle.m */,
+				12B511CB1BC9504B0031FF1E /* Square.h */,
+				12B511CC1BC9504B0031FF1E /* Square.m */,
+			);
+			name = Shape;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,9 +182,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12B511D01BC950860031FF1E /* ShapeMaker.m in Sources */,
 				12B511B21BC94F590031FF1E /* ViewController.m in Sources */,
 				12B511AF1BC94F590031FF1E /* AppDelegate.m in Sources */,
+				12B511C71BC94FE90031FF1E /* Circle.m in Sources */,
+				12B511CD1BC9504B0031FF1E /* Square.m in Sources */,
 				12B511AC1BC94F590031FF1E /* main.m in Sources */,
+				12B511C41BC94F840031FF1E /* Shape.m in Sources */,
+				12B511CA1BC9501C0031FF1E /* Rectangle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

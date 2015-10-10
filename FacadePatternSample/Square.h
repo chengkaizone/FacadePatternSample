@@ -1,0 +1,13 @@
+//
+//  Square.h
+//  FacadePatternSample
+//
+//  Created by lance on 15/10/10.
+//  Copyright © 2015年 lance. All rights reserved.
+//
+
+#import "Shape.h"
+
+@interface Square : Shape
+
+@end
